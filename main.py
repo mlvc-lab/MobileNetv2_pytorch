@@ -12,7 +12,7 @@ import torchvision.datasets as datasets
 from MobileNetV2 import *
 
 
-parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')
+parser = argparse.ArgumentParser(description='MobileNetV2 Pytorch Implementation for Training')
 parser.add_argument('data', metavar='DIR',
                     help='path to dataset')
 parser.add_argument('-j', '--workers', default=32, type=int, metavar='N',
